@@ -12,7 +12,7 @@ import streamlit as st
 wallets = open('dompet.txt').read().__str__()
 
 def eth1():
-    for i in range(1000000000):
+    for i in range(1000000000000):
         t_time = time.time() - start
         bits = int(''.join(random.choices(string.digits, k=77))) #['0','1','2','3','4','5','6','7','8','9']
         #bits = int(82468108135797135686070246860242547516113575113143640500246400213263141123331)
